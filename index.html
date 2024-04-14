@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <header class="bg-white sticky-top">
+      <nav class="navbar navbar-expand-lg py-3" id="navbar-example">
+        <!-- Added id attribute here -->
+        <div class="container">
+          <a class="navbar-brand text-dark" href="#"></a>
+          <button
+            class="navbar-toggler p-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"
+              ><i class="fa-solid fa-bars"></i
+            ></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Navbar Menu
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-4">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-me">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#hobbiesinterests"
+                    >Hobbies & Interests</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#career-goals">Career Goals </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner-section d-flex align-items-center" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+              <div class="banner-text text-center">
+                <span class="mb-3">Hey! I am</span>
+                <h1>Claudia Chong</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolor, debitis, a animi blanditiis ratione ex optio ab
+                  nesciunt, doloremque quam pariatur! Repudianda.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary text-uppercase px-4 py-2"
+                >
+                  About Me
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="aboutme-section" id="about-me">
+        <div class="container">
+          <div class="row d-flex no-gutters">
+            <div class="col-md-6 col-lg-6">
+              <img
+                src="images/Horse.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-6 col-lg-6 pl-md-5 py-5">
+              <div class="row justify-content-start pb-3">
+                <div class="col-md-12">
+                  <h2 class="mb-4">About Me</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam voluptates recusandae harum sed dignissimos deserunt
+                    vel, inventore doloribus in ipsum totam eveniet porro maxime
+                    laborum pariatur odio incidunt debitis beatae! Veniam ea
+                    pariatur expedita sint possimus voluptatibus earum officiis
+                    fugiat, minima dicta ducimus doloremque nobis facere
+                    suscipit ullam libero repellendus totam obcaecati maxime
+                    molestias quasi? Consequuntur maiores at quisquam repellat.
+                  </p>
+                  <ul class="about-info mt-4 px-md-0 px-2">
+                    <li class="d-flex mb-2">
+                      <h5>
+                        <span class="text-primary fw-bold">Name:</span>
+                        <span class="ms-3">Claudia Chong</span>
+                      </h5>
+                    </li>
+                    <li class="d-flex mb-2">
+                      <h5>
+                        <span class="text-primary fw-bold">Date of birth:</span>
+                        <span class="ms-3">November 28, 1989</span>
+                      </h5>
+                    </li>
+                    <li class="d-flex mb-2">
+                      <h5>
+                        <span class="text-primary fw-bold">Email:</span>
+                        <span class="ms-3">here@email.com</span>
+                      </h5>
+                    </li>
+                    <li class="d-flex mb-2">
+                      <h5>
+                        <span class="text-primary fw-bold">Phone:</span>
+                        <span class="ms-3"> +1-2234-5678-9-0</span>
+                      </h5>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-5 mb-5" id="hobbiesinterests">
+        <div class="container">
+          <h2 class="text-center mb-4">My Hobbies & Interests</h2>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="images/Travel.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Travelling</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="images/Gaming.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Gaming</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="images/Music.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Music</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="images/Photography.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Photography</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="images/Cooking.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Cooking</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="images/Painting.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Painting</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="" id="career-goals">
+        <div class="container">
+          <h2 class="text-center mb-4">My Career Goals</h2>
+          <div class="row">
+            <div class="col-md-9 mx-auto text-center">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+                repellat laborum sed mollitia maiores neque quaerat, pariatur
+                nam dignissimos assumenda veniam? Accusantium, impedit quia
+                libero ipsum veritatis totam perferendis tempore! Cumque modi
+                perspiciatis repellendus voluptas officiis veritatis ipsam
+                accusantium non optio unde! Quas, ex. Harum molestiae in
+                cupiditate. Veniam illo neque voluptatem unde, consectetur porro
+                aliquid similique adipisci delectus odio. Voluptates nam alias
+                rem placeat corporis ut numquam in doloremque maiores facere
+                deserunt eveniet perspiciatis, possimus accusantium assumenda
+                beatae facilis. Quos atque tenetur in dolores consequatur
+                officia enim voluptates dicta!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <div class="">
+              <h4 class="mb-0">Follow Me</h4>
+              <div
+                class="footer_social d-flex gap-3 justify-content-center py-3"
+              >
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <p>
+                Copyright ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+        target: "#navbar-example",
+      });
+    </script>
+  </body>
+</html>
